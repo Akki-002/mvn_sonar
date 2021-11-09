@@ -18,12 +18,11 @@
     <sonar.login>admin</sonar.login>
     <sonar.password>akki</sonar.password>
   <properties>  
-    <java.version>11</java.version>  
-    <dependency-check-maven.version>6.1.1</dependency-check-maven.version> 
-    <sonar.dependencyCheck.htmlReportPath>./target/dependency-check-report.html</sonar.dependencyCheck.htmlReportPath>  
-    <sonar.dependencyCheck.jsonReportPath>./target/dependency-check-report.json</sonar.dependencyCheck.jsonReportPath>  
-    <sonar.dependencyCheck.summarize>true</sonar.dependencyCheck.summarize>  
-    <sonar.host.url>http://localhost:9000/</sonar.host.url>
+   <java.version>11</java.version>
+   <dependency-check-maven.version>6.2.2</dependency-check-maven.version>
+   <sonar.dependencyCheck.htmlReportPath>./target/dependency-check-report.html</sonar.dependencyCheck.htmlReportPath>
+   <sonar.dependencyCheck.jsonReportPath>./target/dependency-check-report.json</sonar.dependencyCheck.jsonReportPath>
+   <sonar.dependencyCheck.summarize>true</sonar.dependencyCheck.summarize>
  </properties>
     <!-- JaCoCo Properties -->
     <jacoco.version>0.8.6</jacoco.version>
